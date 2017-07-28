@@ -24,6 +24,21 @@ not having to use the PHP pg_methods directly.
 
 Following are some basic examples for the usage.
 
+Composer:
+---------
+
+```json 
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/123comprou/postgresql-php-tools"
+    }
+],
+"require": {
+    "123comprou/postgresql-php-tools": "dev-master"
+}
+```
+
 How to use:
 -----------
 Basically, you first open a connection to the database and then use the 

@@ -1,0 +1,13 @@
+{
+    "name": "123comprou/postgresql-php-tools",
+    "authors": [
+        {
+            "name": "Andreas Wenk",
+            "email": "a.wenk@netzmeister-st-pauli.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "Andywenk\\" : "src/" }
+    }
+}
